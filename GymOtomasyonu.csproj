@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="DevExpress.Win" Version="25.1" />
+	  <PackageReference Include="DevExpress.Win.Design" Version="25.1" />
+	  <PackageReference Include="DevExpress.Win.Navigation" Version="25.1" />
+	  <PackageReference Include="DevExpress.Win.Printing" Version="25.1" />
+	  <PackageReference Include="DevExpress.Data" Version="25.1" />
+	  <PackageReference Include="DevExpress.Utils" Version="25.1" />
+	  <PackageReference Include="SQLitePCLRaw.bundle_e_sqlite3" Version="3.0.2" />
+	  <PackageReference Include="System.Data.SQLite" Version="2.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v25.1">
+      <HintPath>..\..\..\..\..\..\Program Files\DevExpress 25.1\Components\Bin\Framework\DevExpress.Data.v25.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Drawing.v25.1">
+      <HintPath>..\..\..\..\..\..\Program Files\DevExpress 25.1\Components\Bin\Framework\DevExpress.Drawing.v25.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Sparkline.v25.1.Core">
+      <HintPath>..\..\..\..\..\..\Program Files\DevExpress 25.1\Components\Bin\Framework\DevExpress.Sparkline.v25.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v25.1">
+      <HintPath>..\..\..\..\..\..\Program Files\DevExpress 25.1\Components\Bin\Framework\DevExpress.Utils.v25.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v25.1.UI">
+      <HintPath>..\..\..\..\..\..\Program Files\DevExpress 25.1\Components\Bin\Framework\DevExpress.Utils.v25.1.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v25.1">
+      <HintPath>..\..\..\..\..\..\Program Files\DevExpress 25.1\Components\Bin\Framework\DevExpress.XtraBars.v25.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v25.1">
+      <HintPath>..\..\..\..\..\..\Program Files\DevExpress 25.1\Components\Bin\Framework\DevExpress.XtraEditors.v25.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v25.1">
+      <HintPath>..\..\..\..\..\..\Program Files\DevExpress 25.1\Components\Bin\Framework\DevExpress.XtraGrid.v25.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v25.1">
+      <HintPath>..\..\..\..\..\..\Program Files\DevExpress 25.1\Components\Bin\Framework\DevExpress.XtraLayout.v25.1.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
