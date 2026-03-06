@@ -1,4 +1,4 @@
-# 🏋️‍♂️ Champion's Arena - Gym Management System
+# Champion's Arena - Gym Management System
 
 **Champion's Arena**, spor salonlarının (Gym) ve spor kulüplerinin tüm idari, operasyonel ve analitik süreçlerini dijitalleştirmek amacıyla geliştirilmiş, **Nesne Yönelimli Programlama (OOP)** mimarisine dayanan modern bir masaüstü (Desktop) otomasyon yazılımıdır.
 
@@ -6,13 +6,13 @@ Bu proje, standart Windows Form bileşenlerinin görsel kısıtlamalarını aşm
 
 ---
 
-## ✨ Öne Çıkan Özellikler
+## Öne Çıkan Özellikler
 
 Sistem 3 ana modül ve 1 raporlama motorundan oluşmaktadır:
 
 ### 1. 🥇 Milli Sporcu Yönetim Modülü
 * Profesyonel ve lisanslı sporcuların kayıt altına alındığı modüldür.
-* **Gelişmiş Veri Listeleme:** DevExpress `GridControl` kullanılarak anlık arama (Find Panel), sütun bazlı filtreleme ve gruplama (Örn: Branşa göre gruplama) yapılabilir.
+* **Gelişmiş Veri Listeleme:** DevExpress `GridControl` kullanılarak anlık arama , sütun bazlı filtreleme ve gruplama (Örn: Branşa göre gruplama) yapılabilir.
 * **OOP Entegrasyonu:** Tüm veriler `MilliSporcu` sınıfından türetilen nesneler olarak `BindingList<T>` koleksiyonlarında yönetilir.
 
 ### 2. 👥 Standart Üye ve Paket Yönetimi
@@ -36,17 +36,6 @@ Sistem 3 ana modül ve 1 raporlama motorundan oluşmaktadır:
 * **Veri Yönetimi:** In-Memory Object-Oriented Database (`BindingList<T>`)
 * **Geliştirme Ortamı:** Visual Studio 2022 Enterprise (macOS üzerinde UTM Sanal Makine / Windows 11 ARM emülasyonu ile geliştirilmiştir.)
 
----
-
-## 🚀 Kurulum ve Çalıştırma
-
-Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyin:
-
 ### Ön Koşullar
 * Bilgisayarınızda **Visual Studio 2019 veya 2022** yüklü olmalıdır.
 * Projenin arayüzünün derlenebilmesi için sisteminizde **DevExpress WinForms kütüphanelerinin (v24.1 veya uyumlu bir sürümü)** kurulu ve lisanslanmış (veya deneme sürümü) olması gerekmektedir.
-
-### Adımlar
-1. Projeyi bilgisayarınıza klonlayın:
-   ```bash
-   git clone [https://github.com/KULLANICI_ADIN/champions-arena.git](https://github.com/KULLANICI_ADIN/champions-arena.git)
