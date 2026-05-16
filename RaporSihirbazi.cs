@@ -16,7 +16,7 @@ namespace GymOtomasyonu
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Rapor oluşturulurken hata: " + ex.Message);
+                MessageBox.Show("Rapor oluşturulurken hata: " + ex.Message); # Burdaki hataya en baştan bakılması gerekiyor ve işaretlendi..
             }
         }
     }
